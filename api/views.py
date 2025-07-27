@@ -19,7 +19,7 @@ from rest_framework.filters import SearchFilter, OrderingFilter
 
 @api_view(['GET', 'POST'])
 def studentsView(request):
-    # manualy serialization
+    # manually serialization
     # students = Student.objects.all()
     # students_list = list(students.values())
     # return JsonResponse(students_list, safe=False)
